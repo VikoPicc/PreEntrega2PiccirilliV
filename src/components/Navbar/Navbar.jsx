@@ -1,4 +1,5 @@
 import React from 'react';
+import CartWidget from '../CartWidget/CartWidget';
 
 const Navbar = () => {
     return (
@@ -11,6 +12,7 @@ const Navbar = () => {
                         <button className="btn btn-outline-light mr-2" onClick={() => window.location.href = "Nosotros"}>Nosotros</button>                    
                         <button className="btn btn-outline-light" onClick={() => window.location.href = "Contacto"}>Contacto</button>
                     </div>
+                <CartWidget />
                 </div>
             </nav>
         </header>
